@@ -2,7 +2,8 @@
 'use strict';
 
 const mysql = require('mysql');
-const keys = require('./keys/connection_keys.js');
+const connectionKeys = require('./keys/connection_keys.js');
+const keys = connectionKeys.keys();
 
 const config = {
     connectionLimit: keys.MYSQL_CONNECTION_LIMIT,
