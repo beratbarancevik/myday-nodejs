@@ -35,11 +35,11 @@
     "helmet": "^4.4.1",
     "moment": "^2.29.1",
     "mysql": "^2.18.1",
-    "serverless-http": "^2.6.1",
+    "serverless-http": "^2.7.0",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-promise": "^4.2.1",
     "mocha": "^8.2.1",
     "morgan": "^1.10.0",
